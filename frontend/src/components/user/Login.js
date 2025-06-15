@@ -3,7 +3,8 @@ import {useForm} from 'react-hook-form'
 import { useHistory } from 'react-router-dom'
 function Login(props) {
     let {register,handleSubmit,formState:{errors}} = useForm()
-    let history = useHistory()
+    let history = useHistory()  
+    console.log("check")
 
     const onFormSubmit=(credentials)=>{
 
