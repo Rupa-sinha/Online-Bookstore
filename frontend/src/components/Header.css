@@ -1,0 +1,45 @@
+.header {
+  background-color: rgb(43, 43, 40);
+  
+}
+  .header-logo {
+    width: 200px;
+  }
+  
+   .nav-item {
+    display: flex;
+    align-items: end;
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+
+  .search{
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 15px;
+  }
+ 
+   .nav-link{
+    font-size: 20px;
+    color: white;
+    margin-left:50px;
+  }
+  #blue:hover{
+    color: blue;
+  }
+
+  #register:hover{
+    outline: 3px solid white;
+  }
+
+  #cart:hover{
+    outline: 3px solid white;
+  }
+
+  #return:hover{
+    border: 3px solid white;
+  }
+
+  .navbar-brand:hover{
+    border: 3px solid white;
+  }
